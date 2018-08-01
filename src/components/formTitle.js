@@ -6,5 +6,3 @@ export function FormTitle(props) {
     <h1 className={`${className} form-title`}>{text}</h1>
   )
 }
-
-export default FormTitle;
