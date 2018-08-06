@@ -6,7 +6,7 @@ class Signup extends Component {
     render() {
         return (
             <div className='sign-up'>
-                <SignupForm onSubmit={() => this.onSubmit()}/>
+                <SignupForm onSubmit={(event) => this.onSubmit(event)}/>
             </div>
         )
     }
