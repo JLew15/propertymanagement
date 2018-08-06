@@ -6,7 +6,7 @@ class Signup extends Component {
     render() {
         return (
             <div className='sign-up'>
-                <SignupForm/>
+                <SignupForm onSubmit={() => this.onSubmit()}/>
             </div>
         )
     }
